@@ -1,3 +1,3 @@
 $(function () {
-  $('.slider_01').slick('')
+  $('.slider_01').slick()
 })

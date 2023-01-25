@@ -47,3 +47,9 @@
   width: 640px;
   margin: 10px 0 66px;
 }
+
+.arrows {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
