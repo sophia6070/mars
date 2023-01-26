@@ -92,7 +92,7 @@
 
 /* section */
 .section {
-  width: 1200px;
+  max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
   margin-top: 20px;
@@ -135,4 +135,16 @@
 .earth .cards img {
   width: 100%;
   display: block;
+}
+
+/* space */
+.space .cards li {
+  position: relative;
+}
+
+.space .cards li .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
 }
