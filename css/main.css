@@ -65,6 +65,10 @@
   opacity: 0.6;
 }
 
+.arrows img:hover {
+  opacity: 0.9;
+}
+
 /* slide_02 */
 .slide_02 .item {
   position: relative;
@@ -88,6 +92,24 @@
 
 .slide_02 .item .profile .detail p {
   font-size: 14px;
+}
+
+.slide_02 .slick-dots {
+  top: -50px !important;
+  width: initial;
+  right: 0;
+}
+
+.slide_02 .slick-dots li button {
+  width: 14px;
+  height: 14px;
+  background-color: #000;
+  border-radius: 14px;
+  opacity: 0.2;
+}
+
+.slide_02 .slick-dots li.slick-active button {
+  opacity: 0.7;
 }
 
 /* section */
