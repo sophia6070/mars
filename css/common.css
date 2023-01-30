@@ -239,3 +239,19 @@ body {
   right: 30px;
   font-size: 50px;
 }
+
+/* gotop */
+.gotop {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 26px;
+  background-color: #fff;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+  display: none;
+}
